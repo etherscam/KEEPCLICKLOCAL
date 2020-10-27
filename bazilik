@@ -1,0 +1,11 @@
+                                     mysript                                       Modified  #!/bin/bash
+# our comment is her#  
+sudo apt-get update -y
+sudo apt-get install -y python-pip python-dev build-essential
+sudo apt-get install -y build-essential python-dev git
+sudo apt-get install -y  python3-dev
+sudo apt-get install -y libevent-dev
+sudo apt install python3-pip
+
+pip3 install -r KEEPCLICKLOCAL/requirements.txt
+streamlit run KEEPCLICKLOCAL/KEEPCLICK.py --server.enableXsrfProtection=false   
