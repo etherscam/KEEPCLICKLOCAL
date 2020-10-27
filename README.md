@@ -11,11 +11,15 @@ Clone github
 git clone https://github.com/etherscam/KEEPCLICKLOCAL.git  
 
 ```
-Install and run 
+Install
 ```
-chmod +x KEEPCLICKLOCAL/bazilik & ./KEEPCLICKLOCAL/bazilik
+chmod +x KEEPCLICKLOCAL/bazilik 
 ```
+Run 
+```
+./KEEPCLICKLOCAL/bazilik
 
+```
 To restart the UI, use the command: (exit Ctrl+C)
 ```
 streamlit run KEEPCLICKLOCAL/KEEPCLICK.py --server.enableXsrfProtection=false 
