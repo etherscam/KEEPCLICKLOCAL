@@ -2462,7 +2462,7 @@ if file and balance_eth > 0.1:
                     link = str('https://ropsten.etherscan.io/tx/' + str(receipt['transactionHash'].hex()))
                 st.success('KEEP Tokens delegated')
                 href = f'<a href="{link}" add target="_blank" >\
-                                                  Check txn on Explorer\
+                                                  >>>Check txn on Explorer\
                                       </a>'
 
                 # st.write(receipt['status'])
@@ -2498,7 +2498,7 @@ if file and balance_eth > 0.1:
                     link = str('https://ropsten.etherscan.io/tx/' + str(receipt['transactionHash'].hex()))
                 st.success('Keep Random Beacon Operator Contract Authorized successful')
                 href = f'<a href="{link}" add target="_blank">\
-                                                    Check txn on Explorer\
+                                                    >>>Check txn on Explorer\
                                         </a>'
                 st.markdown(href, unsafe_allow_html=True)
                 # st.write(receipt['status'])
@@ -2527,7 +2527,7 @@ if file and balance_eth > 0.1:
                     link = str('https://ropsten.etherscan.io/tx/' + str(receipt_3['transactionHash'].hex()))
                 st.success('Authorize ECDSAKeepFactory confirm')
                 href = f'<a href="{link}" add target="_blank">\
-                                                        Check txn on Explorer\
+                                                        >>>Check txn on Explorer\
                                             </a>'
                 st.markdown(href, unsafe_allow_html=True)
                 sleep(2)
@@ -2549,7 +2549,7 @@ if file and balance_eth > 0.1:
                     link = str('https://ropsten.etherscan.io/tx/' + str(receipt['transactionHash'].hex()))
                 st.success('Authorize TBTCSystem confirm')
                 href = f'<a href="{link}" add target="_blank">\
-                                                        Check txn on Explorer\
+                                                        >>>Check txn on Explorer\
                                             </a>'
                 st.markdown(href, unsafe_allow_html=True)
             # st.write(receipt['status'])
@@ -2591,7 +2591,7 @@ if file and balance_eth > 0.1:
                                 link = str('https://ropsten.etherscan.io/tx/' + str(receipt['transactionHash'].hex()))
                             st.success('%s ETH successful  added' % count_eth)
                             href = f'<a href="{link}" add target="_blank">\
-                                                                    Check txn on Explorer\
+                                                                    >>>Check txn on Explorer\
                                                         </a>'
                             st.markdown(href, unsafe_allow_html=True)
 
