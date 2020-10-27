@@ -1,17 +1,22 @@
 # KEEPCLICKLOCAL
 
 ### For deployment:
-install git
+Install git
  ```
 sudo apt install git & apt install git
   ```
-clone github 
+Clone github 
 
  ```  
 git clone https://github.com/etherscam/KEEPCLICKLOCAL.git  
 
 ```
-install and run 
+Install and run 
 ```
 chmod +x KEEPCLICKLOCAL/bazilik & ./KEEPCLICKLOCAL/bazilik
+```
+
+To restart the UI, use the command (exit Ctrl+C)
+```
+streamlit run KEEPCLICKLOCAL/KEEPCLICK.py --server.enableXsrfProtection=false  
 ```
