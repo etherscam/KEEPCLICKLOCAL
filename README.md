@@ -1,10 +1,14 @@
 # KEEPCLICKLOCAL
 
 ### For deployment:
-Install git
+Update and install git
  ```
-sudo apt update & apt install git
+sudo apt update 
+
   ```
+ ```  
+apt install git
+   ```
 Clone github 
 
  ```  
