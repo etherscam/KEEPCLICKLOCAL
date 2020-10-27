@@ -184,7 +184,7 @@ st.markdown('<font color=‘black’>To continue, you need to create a MEW and V
 ropsten_url = "https://ropsten.infura.io/v3/1c64c119f80744ea8047ba4ca847a7b1"
 web3 = Web3(Web3.HTTPProvider(ropsten_url))
 
-#st.set_option('deprecation.showfileUploaderEncoding', False)
+st.set_option('deprecation.showfileUploaderEncoding', False)
 # file_buffer = st.file_uploader(...)
 
 # text_io = io.TextIOWrapper(file_buffer)
