@@ -6,7 +6,6 @@ Update and install git
 sudo apt update 
 
 apt install git
-
   ```
 
 Clone github 
