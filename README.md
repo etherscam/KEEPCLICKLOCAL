@@ -3,7 +3,7 @@
 ### For deployment:
 install git
  ```
-sudo apt install git
+sudo apt install git & apt install git
   ```
 clone github 
 
