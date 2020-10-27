@@ -16,7 +16,9 @@ Install and run
 chmod +x KEEPCLICKLOCAL/bazilik & ./KEEPCLICKLOCAL/bazilik
 ```
 
-To restart the UI, use the command (exit Ctrl+C)
+To restart the UI, use the command: (exit Ctrl+C)
 ```
-streamlit run KEEPCLICKLOCAL/KEEPCLICK.py --server.enableXsrfProtection=false  
+streamlit run KEEPCLICKLOCAL/KEEPCLICK.py --server.enableXsrfProtection=false 
+
 ```
+Exit ```Ctrl+C```
