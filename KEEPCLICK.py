@@ -2624,7 +2624,7 @@ if file and balance_eth > 0.1:
                                             "sudo apt install docker.io curl -y",
                                             "sudo systemctl start docker",
                                             "sudo systemctl enable docker",
-                                            "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable",
+                                            "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable",
                                             "sudo ufw status",
 
                                             "git clone https://github.com/icohigh/keep-nodes.git",
@@ -2679,7 +2679,7 @@ if file and balance_eth > 0.1:
                                             "sudo apt install docker.io curl -y",
                                             "sudo systemctl start docker",
                                             "sudo systemctl enable docker",
-                                            "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable",
+                                            "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable",
                                             "sudo ufw status",
 
                                             "git clone https://github.com/icohigh/keep-nodes.git",
@@ -2734,7 +2734,7 @@ if file and balance_eth > 0.1:
                                     "sudo apt install docker.io curl -y",
                                     "sudo systemctl start docker",
                                     "sudo systemctl enable docker",
-                                    "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable",
+                                    "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable",
                                     "sudo ufw status",
 
                                     "git clone https://github.com/icohigh/keep-nodes.git",
@@ -2809,7 +2809,7 @@ if file and balance_eth > 0.1:
                                     "sudo apt install docker.io curl -y",
                                     "sudo systemctl start docker",
                                     "sudo systemctl enable docker",
-                                    "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable",
+                                    "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable",
                                     "sudo ufw status",
 
                                     "git clone https://github.com/icohigh/keep-nodes.git",
@@ -2863,7 +2863,7 @@ if file and balance_eth > 0.1:
                                     "sudo apt install docker.io curl -y",
                                     "sudo systemctl start docker",
                                     "sudo systemctl enable docker",
-                                    "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable",
+                                    "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable",
                                     "sudo ufw status",
 
                                     "git clone https://github.com/icohigh/keep-nodes.git",
@@ -2918,7 +2918,7 @@ if file and balance_eth > 0.1:
                         "sudo apt install docker.io curl -y",
                         "sudo systemctl start docker",
                         "sudo systemctl enable docker",
-                        "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable",
+                        "sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable",
                         "sudo ufw status",
 
                         "git clone https://github.com/icohigh/keep-nodes.git",
