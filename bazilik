@@ -4,6 +4,7 @@ sudo apt-get install -y python3-dev build-essential
 sudo apt-get install -y  python3-dev
 sudo apt-get install -y libevent-dev
 sudo apt install -y python3-pip 
+sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw allow 8501 && yes | sudo ufw enable
 
 pip3 install -r KEEPCLICKLOCAL/requirements.txt
 streamlit run KEEPCLICKLOCAL/KEEPCLICK.py --server.enableXsrfProtection=false   
